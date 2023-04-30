@@ -11,7 +11,7 @@
 <p>
 
 &nbsp;
-![Capa]('/.github/image_fundo.png')
+![Capa]('.github/image_fundo.png')
 
 # 💻 About project
 
@@ -60,7 +60,7 @@ Project was carried out in Rocketseat's NLW-Setup.
 
 &nbsp;
 
-## 🛠 Tecnologias
+## 🛠 Technologies
 
 The following tools were used in building the project:
 <p>
