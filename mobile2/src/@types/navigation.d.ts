@@ -1,0 +1,1 @@
+export declare global {    namespace ReactNAvigation {        interface RootParamList {            home: undefined;            new: undefined;            habit: {                date: string;            }        }    }}
