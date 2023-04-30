@@ -11,7 +11,7 @@
 <p>
 
 &nbsp;
-![Capa]('.github/image_fundo.png')
+![Capa](.github/image_fundo.png)
 
 # 💻 About project
 
