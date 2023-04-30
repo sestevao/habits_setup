@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.2.3",
-    "@expo/webpack-config": "^0.17.4",
+    "@expo/webpack-config": "^18.0.4",
     "@faker-js/faker": "^7.6.0",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
