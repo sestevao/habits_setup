@@ -3,46 +3,43 @@
 </h1>
 
 <p align="center">
-<img src="https://img.shields.io/github/license/sestevao/Nlw-Setup?color=ff0000" />
-<img src="https://img.shields.io/github/issues/LivioAlvarenga/Nlw-Setup" alt="issue app" />
-<img src="https://img.shields.io/github/languages/count/LivioAlvarenga/Nlw-Setup" alt="total amount of programming languages used in the project" />
-<img src="https://img.shields.io/github/languages/top/LivioAlvarenga/Nlw-Setup" alt="most used language in the projects" />
- <img src="https://img.shields.io/github/repo-size/sestevao/Nlw-Setup" alt="repository size" />
+<img src="https://img.shields.io/github/license/sestevao/habits_setup?color=ff0000" />
+<img src="https://img.shields.io/github/issues/sestevao/habits_setup" alt="issue app" />
+<img src="https://img.shields.io/github/languages/count/sestevao/habits_setup" alt="total amount of programming languages used in the project" />
+<img src="https://img.shields.io/github/languages/top/sestevao/habits_setup" alt="most used language in the projects" />
+ <img src="https://img.shields.io/github/repo-size/sestevao/habits_setup" alt="repository size" />
 <p>
 
 &nbsp;
-![Capa]
+![Capa]('/.github/image_fundo.png')
 
-&nbsp;
-<a id="-sobre-o-projeto"></a>
-
-## 💻 About project
+# 💻 About project
 
  🚀 Fullstack design of habit tracker app with calendar showing habits by day with different color shades to identify completion of habits each day. Possibility of creating and editing habit completion daily.
 
-BACKEND:
+### BACKEND:
 
+- [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- [TSX](https://tsx-docs.vercel.app/)
+- [Fastify](https://www.fastify.io/docs/latest/)
+- [Prisma](https://www.prisma.io/docs/getting-started)
+- [Zod](https://zod.dev/?id=basic-usage)
+
+### FRONTEND:
+
+- [ViteJs](https://vitejs.dev/guide/)
+- [ReactJs](https://react.dev/learn)
+- [TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- [Tailwindcss](https://tailwindcss.com/docs/installation)
+- [Radix](https://www.radix-ui.com/docs/primitives/overview/getting-started)
+- [Axios](https://axios-http.com/docs/intro)
+
+### MOBILE:
+
+- [React-Native](https://reactnative.dev/docs/getting-started)
+- [Expo](https://docs.expo.dev/)
 - TypeScript
-- TSX
-- Fastify
-- Prisma
-- Zod
-
-FRONTEND:
-
-- ViteJs
-- ReactJs
-- TypeScript
-- Tailwindcss
-- Radix
-- Axios
-
-MOBILE:
-
-- React-Native
-- Expo
-- TypeScript
-- NativeWind
+- [NativeWind](https://www.nativewind.dev/quick-starts/create-react-native-app)
 - Axios
 
 ## It has the features of
@@ -51,7 +48,9 @@ MOBILE:
 - Identification of completion of habits on days, the more blue the less habits completed on the day;
 - Possibility of creating new habits marking the days that it will be monitored;
 - Editing (toggle) habits per day between completed and to be completed.
-- Habit progress bar by day. Completed Vs Completed.
+- Habit progress bar by day. Completed vs to complete.
+
+&nbsp;
 
 ![Imagens-Web](https://github.com/LivioAlvarenga/Nlw-Setup/blob/master/files/Imagens-Web.png?raw=true)
 
@@ -59,34 +58,12 @@ MOBILE:
 
 Project was carried out in Rocketseat's NLW-Setup.
 
-
 &nbsp;
-
-
-
----
-
-&nbsp;
-<a id="-habits"></a>
-
-
-| :sparkles: Habits |                                                                                                                                                    |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| :sparkles: Nome       | **Gestão de Hábitos completa com NodeJs (Back-end), ReactJs (Front-end) e React-Native (Mobile)**                                                  |
-| :label: Tecnologias   | React-native, ReactJs, Expo, Prisma, Tailwindcss, NativeWind, NodeJs, JavaScript, TypeScript, HTML5, CSS3, Axios, SQLite3, Figma, Eslint, Prettier |
-
----
-
-&nbsp;
-<a id="-tecnologias"></a>
 
 ## 🛠 Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto
-
-&nbsp;
-
-<p align="center">
+The following tools were used in building the project:
+<p>
   <a href= "https://html5.org/"><img alt="html 5 badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=E34F26&logo=HTML5&label=Markup Language&message=HTML5&color=E34F26"></a>
   <a href= "https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img alt="CSS 3 badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=1572B6&logo=CSS3&label=Style&message=CSS3&color=1572B6"></a>
   <a href= "https://tailwindcss.com/"><img alt="Tailwind CSS badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=06b6d4&logo=Tailwind CSS&label=Style&message=Tailwind CSS&color=06b6d4"></a>
@@ -106,388 +83,9 @@ As seguintes ferramentas foram usadas na construção do projeto
   <a href= "https://eslint.org/"><img alt="code standardization eslint" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=4B32C3&logo=ESLint&label=Code Standardization&message=ESLint&color=4B32C3"></a>
 </p>
 
----
 
-&nbsp;
-<a id="-instalação"></a>
+## 📝 License
 
-## ⚙️ Instalações
+This project is [MIT licensed](./LICENSE).
 
-### BACK-END | TypeScript - TSX - Fastify - Prisma - Zod
-
-Criar pasta server dentro do projeto
-
-```bash
-mkdir server
-cd server
-```
-
-Inicia um projeto e cria package.json
-
-```bash
-npm init -y
-```
-
-Instalar typescript na dependência de desenvolvimento
-
-```bash
-npm i typescript -D
-# Cria tsconfig.json
-npx tsc --init
-```
-
-Instalar TSX na dependência de desenvolvimento
-
-```bash
-# dependência tsx para compilar .ts para .js (node agora consegue rodar arquivos .ts)
-npm i tsx -D
-```
-
-Instalar Zod na dependência de produção
-
-```bash
-# biblioteca de validação e tipagem TypeScript (https://zod.dev)
-npm install zod
-```
-
-Instalar Fastify na dependência de produção | Cria rotas HTTP
-
-```bash
-npm i fastify
-# cors é a segurança do backend, basicamente é quem esta autorizado a consumir dados no meu backend
-npm i @fastify/cors
-```
-
-Instalando Prisma (ORM)
-
-```bash
-npm i prisma -D
-npm i @prisma/client
-```
-
-Instalando gerador de diagrama para DB Prisma
-
-```bash
-npm i -D prisma-erd-generator @mermaid-js/mermaid-cli
-# adicionar o código abaixo em schema.prisma
-generator erd {
-  provider = "prisma-erd-generator"
-}
-```
-
-Instalar Dayjs na dependência de produção
-
-```bash
-# biblioteca de manipulação de datas
-npm install dayjs
-```
-
-### FRONT-END | ViteJs - ReactJs - TypeScript - Tailwindcss - Radix - Axios
-
-Cria um projeto com ViteJs
-
-```bash
-npm create vite@latest
-# Project name: » web | Select a framework: » React | Select a variant: » TypeScript
-npm install
-```
-
-Instalando arquitetura Tailwindcss
-
-```bash
-npm install -D tailwindcss postcss autoprefixer prettier prettier-plugin-tailwindcss
-# Criar arquivo .prettierrc.json na raiz do projeto
-```
-
-Criando tailwind.config.cjs
-
-```bash
-npx tailwindcss init -p
-```
-
-Editando tailwind.config.cjs
-
-```bash
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-Adicionando configuração Tailwindcss em src/styles/global.css
-
-```bash
-@tailwind base;
-@tailwind components;
-@tailwind utilities
-```
-
-Instalando biblioteca de ícones Phosphor
-
-```bash
-npm install phosphor-react
-```
-
-Instalando faker para gerar números aleatórios
-
-```bash
-npm install @faker-js/faker
-```
-
-Instalar Dayjs na dependência de produção
-
-```bash
-# biblioteca de manipulação de datas
-npm install dayjs
-```
-
-Instalar componentes do Radix
-
-```bash
-npm install @radix-ui/react-dialog
-npm install @radix-ui/react-popover
-npm install @radix-ui/react-checkbox
-```
-
-Instalar CLSX para criar condicionais em className
-
-```bash
-npm install clsx
-```
-
-Instalando biblioteca de Axios para comunicação Http
-
-```bash
-npm install axios
-```
-
-### MOBILE | React-Native - Expo - TypeScript - NativeWind - Axios
-
-Instalando expo-cli globalmente
-
-```bash
-npm install -g expo-cli
-# verificando a versão instalada
-expo --version
-```
-
-Criar projeto React Native | Blank | TypeScript
-
-```bash
-npx create-expo-app mobile --template
-# Choose a template: » Blank (TypeScript)
-```
-
-Instalando expo-font e font Inter do Google
-
-```bash
-npx expo install expo-font @expo-google-fonts/inter
-```
-
-Instalando biblioteca de navegação entre telas react-navigation
-
-```bash
-npm install @react-navigation/native
-npx expo install react-native-screens react-native-safe-area-context
-npm install @react-navigation/native-stack
-```
-
-Instalando react-native-reanimated para animações
-
-```bash
-npx expo install react-native-reanimated
-# vá em babel.config.js e atualize os plugins
-plugins: ["nativewind/babel", "react-native-reanimated/plugin"],
-```
-
-Instalando NativeWind no ambiente de produção (Tailwindcss em React-native)
-
-```bash
-npm install nativewind
-```
-
-Instalando arquitetura Tailwindcss
-
-```bash
-npm install -D tailwindcss prettier prettier-plugin-tailwindcss
-# Criar arquivo .prettierrc.json na raiz do projeto
-```
-
-Criando tailwind.config.cjs
-
-```bash
-npx tailwindcss init
-```
-
-Editando tailwind.config.cjs
-
-```bash
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-Editando babel.config.js
-
-```bash
-// babel.config.js
-module.exports = function (api) {
-  api.cache(true);
-  return {
-    presets: ["babel-preset-expo"],
-    plugins: ["nativewind/babel"], // <=====
-  };
-};
-```
-
-Criando types para className
-
-```ts
-// crie um arquivo em uma pasta @types/app.d.ts em src
-// adicione no app.d.ts o script abaixo
-/// <reference types="nativewind/types" />
-```
-
-Instalando biblioteca para ler imagens SGV
-
-```bash
-npx expo install react-native-svg
-npm install -D react-native-svg-transformer
-# Obs. tem que criar arquivo na raiz do projeto (metro.config.js)
-```
-
-Criando arquivo na raiz do projeto (metro.config.js)
-
-```javascript
-const { getDefaultConfig } = require("expo/metro-config");
-module.exports = (() => {
-  const config = getDefaultConfig(__dirname);
-  const { transformer, resolver } = config;
-  config.transformer = {
-    ...transformer,
-    babelTransformerPath: require.resolve("react-native-svg-transformer"),
-  };
-  config.resolver = {
-    ...resolver,
-    assetExts: resolver.assetExts.filter((ext) => ext !== "svg"),
-    sourceExts: [...resolver.sourceExts, "svg"],
-  };
-  return config;
-})();
-```
-
-Criando types para svg
-
-```ts
-// crie um arquivo em uma pasta @types/svg.d.ts em src
-// adicione no svg.d.ts o script abaixo
-declare module "*.svg" {
-  import React from "react";
-  import { SvgProps } from "react-native-svg";
-  const content: React.FC<SvgProps>;
-  export default content;
-}
-```
-
-Instalando faker para gerar números aleatórios
-
-```bash
-npm install @faker-js/faker
-```
-
-Instalar Dayjs na dependência de produção
-
-```bash
-# biblioteca de manipulação de datas
-npm install dayjs
-```
-
-Instalando biblioteca de Axios para comunicação Http
-
-```bash
-npm install axios
-```
-
-Instalar CLSX para criar condicionais em className
-
-```bash
-npm install clsx
-```
-
----
-
-&nbsp;
-<a id="-funcionalidades"></a>
-
-## ⚙️ Funcionalidades
-
-### Executando o servidor back-end
-
-```bash
-# development (http://localhost:3000/) | tsx watch src/server.ts
-cd server
-npm run dev
-```
-
-### ORM Prisma back-end
-
-```bash
-cd server
-# Criando BD prisma SQLite
-npx prisma init --datasource-provider SQLite
-# criando/atualizando as tabelas do BD no prisma
-npx prisma migrate dev
-# Enter a name for the new migration: » created tab Habits
-# prisma studio (Verificar tabelas e realizar CRUD manual)
-npx prisma studio
-# ou
-npx prisma studio -b firefox -p 5173
-# -b firefox p/ especificar navegador
-# -p 5173 p/ especificar porta
-# ou
-npm run db
-# Gerando diagrama de banco de dados Prisma
-npx prisma generate
-# ou
-npm run diagrama
-# Criando Seed, lançamentos de dados para testes
-npx prisma db seed
-```
-
-![diagrama db](https://raw.githubusercontent.com/LivioAlvarenga/Nlw-Setup/d38430aa86f096acba43d797c529d7c9fe8f932b/server/prisma/ERD.svg)
-
-### Executando o aplicativo mobile
-
-```bash
-cd mobile
-npx expo start
-# Iniciando com a cash limpa
-npx expo start --clear
-```
-
-### Executando o aplicativo web
-
-```bash
-cd web
-npm run dev
-```
-
----
-
-&nbsp;
-<a id="-licença"></a>
-
-## 📝 Licença
-
-Este projeto é [MIT licensed](./LICENSE).
-
-##### _#CompartilheConhecimento_
+##### _#ShareKnowledge_
